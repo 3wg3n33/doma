@@ -1,2 +1,2 @@
-# doma
-doma pri vas
+# steza
+SteZa Kulinarike
