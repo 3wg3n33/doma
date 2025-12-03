@@ -11,7 +11,7 @@ body {
     background-attachment: fixed; /* da se ne premika */
     
     text-align: center; /* vsa vsebina na sredino */
-    color: white;       /* tekst bel, da se vidi */
+    color: green;       /* tekst bel, da se vidi */
 }
 
 /* Glavna vsebina na sredino in bolj pregledna */
@@ -25,15 +25,16 @@ body {
 
 /* Naslovi bolj vidni */
 h1, h2, h3 {
-    color: red;
+    color:red;
 }
 
 /* Tekst in povezave */
 p, a {
-    color: blue;
+    color:blue;
 }
 a {
     text-decoration: underline;
 }
+
 
 
