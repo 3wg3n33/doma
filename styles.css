@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 
-background-image: url("https://raw.githubusercontent.com/3wg3n33/SteZa-Kulinarike/main/slika9.jpg");
+background-image: url("https://raw.githubusercontent.com/3wg3n33/SteZa-Kulinarike/main/ozadje1.jpg");
 
 
     background-size: cover;
@@ -36,6 +36,22 @@ p, a {
     color: white;
     text-decoration: underline;
 }
+
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+p {
+    font-size: 20px;
+}
+
 
 
 
