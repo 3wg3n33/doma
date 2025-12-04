@@ -93,23 +93,22 @@
 
     <section id="contact" class="container contact">
       <h2>Kontakt</h2>
-      <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST" novalidate>
-        <label for="name">Ime</label>
-        <input id="name" name="name" type="text" required minlength="2" />
+    <form action="https://formsubmit.co/evgen.pirs@gmail.com" method="POST">
 
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" required />
+    <input type="text" name="Ime" placeholder="Vaše ime" required><br><br>
 
-        <label for="message">Sporoèilo</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+    <input type="email" name="Email" placeholder="Vaš email" required><br><br>
 
-        <div class="form-actions">
-          <!-- Èe ne želiš Formspree, zamenjaj action z: action="mailto:ti@primer.si" method="GET" -->
-          <button type="submit" class="btn">Pošlji</button>
-        </div>
+    <textarea name="Sporocilo" placeholder="Vaše sporočilo" rows="5" required></textarea><br><br>
 
-        <p class="form-note">Ali želiš, da prejmeš kopijo na email? Dodaj polje za potrditev.</p>
-      </form>
+    <button type="submit">Pošlji</button>
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Novo sporočilo iz spletne strani">
+    <input type="hidden" name="_next" value="https://3wg3n33.github.io/SteZa-Kulinarike/">
+
+</form>
+
     </section>
   </main>
 
@@ -122,6 +121,7 @@
   <script src="script.js" defer></script>
 </body>
 </html>
+
 
 
 
